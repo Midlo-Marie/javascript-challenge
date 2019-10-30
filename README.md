@@ -10,13 +10,13 @@
 ### Flow control
 
 * Javascript script, app.js, populates the data table on the web page using the style.css file and index.html. /
-  The script also filters original data based on the user inputs on the web page.
+  The script also filters original data from user inputs submitted on the web page.
   Two event handling routines check for 1) no data returned from filter, and 2) request for table data reset
 * index.html script provides the template to display UFO data in a table on a single Web page (index.html)
      
 ### Level 2: Multiple Search Categories
 
-* Using multiple `input` tags and/or select dropdowns, write JavaScript code so the user can to set multiple filters and search for UFO sightings using the following criteria based on the table columns:
+* Using multiple `input` tags and/or select dropdowns, the JavaScript code provides the user with multiple filters to search for UFO sightings using the following criteria based on the table columns:
 
   1. `date/time`
   2. `city`
