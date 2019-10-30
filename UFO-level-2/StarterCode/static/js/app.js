@@ -93,7 +93,8 @@ function filterData() {
 
         tbody.text("");
         tbody.style("color", "red");
-        tbody.append("tr").append("td").text("No results found!");
+        tbody.append("tr").append("td");
+        tbody.text("NO RESULTS FOUND!  TRY AGAIN..");
          }
 }
 
